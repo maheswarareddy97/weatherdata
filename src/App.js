@@ -5,6 +5,9 @@ const App = () => {
   const [city,setCity]=useState('');
   const [result,setResult]=useState([]);
 
+
+  
+
   const changeHandler= (e) => {
     setCity(e.target.value);
   }
